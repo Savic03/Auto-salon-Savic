@@ -41,12 +41,40 @@
         flex-direction: column;
         gap: 40px;
         align-items: center;
-    
     }
     .logo{
         padding-block: 200px 100px;
     }
     .text-header{
         text-align: center;
+    }
+}
+@media  screen and (min-width:768px) and (max-width:1024px) {
+    .list{
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+    }
+    .logo{
+        padding-block: 200px 100px;
+    }
+    .text-header{
+        text-align: center;
+        left: 22%;
+    }
+    .kartica-1{
+        margin-right: 40px;
+        grid-template-columns: 1fr 1fr;
+    }
+    .galerija h2{
+        letter-spacing: 1px;
+        font-weight: bold;
+        background-color: black;
+        color: white;
+        text-align: center;
+        margin: 20px 70px;
+        padding: 10px 10px;
+        border-radius: 15px;
+        border: 2px solid black;
     }
 }
