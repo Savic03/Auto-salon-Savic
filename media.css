@@ -1,0 +1,52 @@
+@media  screen and (min-width:320px) and (max-width:425px) {
+   
+    .kartica-1{
+        grid-template-columns: 1fr;
+    }
+    .galerija h2{
+        letter-spacing: 1px;
+        font-weight: bold;
+        background-color: black;
+        color: white;
+        text-align: center;
+        margin: 20px 70px;
+        padding: 10px 10px;
+        border-radius: 15px;
+        border: 2px solid black;
+    }
+    footer{
+        /* display: flex;
+        padding: 20px 20px;
+        background-color: black;
+        color: white;
+        font-size: 7px; */
+        flex-direction: column;
+    }
+    .galerija1{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        
+    }
+    .kartica1{
+        width: auto;
+        
+    }
+    .f1, f2{
+        margin: 0;
+    }
+    .list{
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+    
+    }
+    .logo{
+        padding-block: 200px 100px;
+    }
+    .text-header{
+        text-align: center;
+    }
+}

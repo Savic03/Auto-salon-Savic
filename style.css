@@ -1,0 +1,326 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.list {
+    list-style: none;
+    display: flex;
+    gap: 1px;
+    justify-content: right;
+    padding-top: 40px;
+}
+
+.pozadina{
+    background-size: cover;
+    background-image:linear-gradient(#0000002a, #e6e6e600), url(pexels-aaron-curtis-119435.jpg);
+    height: 100vh;
+}
+.list-item a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid;
+    border-radius: 7px;
+    padding: 10px 20px;
+    margin: 20px 20px;
+    transition: 0.3s;
+}
+.list-item a:hover{
+    color: black;
+    background-color: white;
+    border: 2px solid white;
+}
+nav{
+    position: relative;
+    width: 100%;
+}
+.text-header{
+    position:absolute;
+    bottom: 100;
+    right: 100;
+    font-weight: bold;
+    font-size: 35px;
+    color: white;
+    margin: 30px 20px;
+   
+}
+nav ul{
+    border: solid black 1px;
+    background-color: black;
+    padding-bottom: 25px;
+    padding-left: 1px;
+    
+}
+.logo{
+    display: flex;
+    align-items: center;
+    height:30px;
+    padding-top: 35px;
+    margin-left: 10px;
+    margin-right: 15px;
+    background-color: black;
+}
+.kartice{
+    margin-bottom: 100px;
+}
+.kartica-1{
+    /* display: flex;
+    justify-content: space-between; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.kartica{
+    margin: 10px 10px;
+}
+.naslovcover{
+    background-image:linear-gradient(#6060605b, #ffffff), url(gray-color-solid-background-1920x1080.png);
+}
+.naslov{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.kartica1  {
+    /* width: 350px; */
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.kartica1 img{
+    background-size: cover;
+    width: 100%;
+    justify-content: center;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all 0,3s ease;
+}
+.kartica1 p{
+    width: 100%;
+    align-items: center;
+    margin-top: 10px;
+    border: solid silver 1px;
+    border-radius: 15px;
+    padding: 20px 30px;
+}
+.kartica h3{
+    display: flex;
+    justify-content: center;
+    margin: 10px 20px;
+    border: solid silver 2px;
+    border-radius: 15px;
+}
+.kartica1 img:hover{
+    opacity: 0.8;
+}
+.naslov h2{
+    text-decoration: none;
+    transition: 0.3 ease;
+}
+.naslov:hover{
+   opacity: 0.8;
+}
+.galerija{
+    font-size: large;
+    font-weight: bold;
+}
+.galerija h2{
+    letter-spacing: 1px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 10px 490px;
+    padding: 10px 10px;
+    border-radius: 15px;
+    border: 2px solid black;
+}
+.galerija h2:hover{
+    border: 1px solid white;
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+}
+.galerija1{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+}
+.galerija2{
+    display: block;
+    margin: 6.5px 6.5px;
+    border: solid silver 1.5px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    transition: transform 0.3s ease;
+    background-color: black;
+    color: white;
+}
+.galerija2 img{
+    width: 100%;
+    height: auto;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    
+}
+.marke{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.galerija2:hover{
+    transform: scale(1.1);
+}
+
+footer{
+    display: flex;
+    padding: 50px 50px;
+    background-color: black;
+    color: white;
+}
+.f1{
+    margin: auto;
+}
+.pozadina1{
+    background-image: radial-gradient(#cdcdcd62, #0000005f), url(pexels-pixabay-63294.jpg);
+    background-size: cover;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+.paragraf{
+    color: white;
+    padding: 10px ;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+.paragrafpozadina{
+    width: auto;
+    height: auto;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    background: linear-gradient(#ffffffa0, #00000096);
+}
+.logo{
+    display: flex;
+    align-items: center;
+    width: auto;
+    justify-content: center;
+    
+    margin-top: auto;
+    height: 10px;
+}
+.logo2{
+    margin: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+#input1{
+    width: auto;
+    margin: auto;
+    border-radius: 5px;
+    padding: 2px;
+}
+.textholderi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+#input2{
+    letter-spacing: 1px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    display: flex;
+    text-align: center;
+    padding: 10px 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    transition: 0.3 ease;
+    width: 100%;
+    justify-content: center;
+}
+#input2:hover{
+    border: 1px solid white;
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+}
+textarea{
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.poslovanje{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    background-image: url(onama1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.tekstdiv{
+    background: radial-gradient(#000000, #ffffff00);
+    color: white;
+    align-items: left;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    margin-left: 50px;
+}
+.poslovanje1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    background-image: url(pexels-gustavo-fring-4173191.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.tekst{
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 10px 10px;
+    line-height: 1.4;
+}
+hr{
+    border: none;
+    border-top: 2px solid black;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.tekstdiv h1{
+    margin-bottom: 10px;
+}
+.tekstdiv1{
+    background: radial-gradient(#000000, #ffffff00);
+    color: white;
+    align-items: left;
+    justify-content: center;
+    text-align: center;
+    margin-right: 32px;
+}
+.tekstdiv1 h1{
+    margin-bottom: 10px;
+}
